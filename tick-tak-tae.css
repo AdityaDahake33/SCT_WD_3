@@ -1,0 +1,45 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #e0f2f1, #bbdefb);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .board {
+      display: grid;
+      grid-template-columns: repeat(3, 80px);
+      grid-gap: 10px;
+      margin-top: 20px;
+    }
+    .cell {
+      width: 80px;
+      height: 80px;
+      font-size: 2rem;
+      background: #e3f2fd;
+      border: 2px solid #90caf9;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .status {
+      font-size: 1.2rem;
+      margin-top: 15px;
+    }
+    .reset-btn {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background: #64b5f6;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
