@@ -28,7 +28,7 @@ A simple yet beautifully designed **Tic-Tac-Toe** game built with **HTML, CSS, a
 
 ## 🚀 Live Demo
 
-🔗
+🔗https://adityadahake33.github.io/SCT_WD_3/
 
 ---
 
